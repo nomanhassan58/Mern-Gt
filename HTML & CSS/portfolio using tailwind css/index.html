@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header bg-black fixed top-0 left-0 w-full px-12 py-8 backdrop-blur backdrop-filter flex justify-between items-center z-50">
+        <a href="#" class="logo text-white text-2xl font-semibold transition-all duration-300 hover:text-orangered">
+            <span>Nau</span>man
+        </a>
+        <nav class="navbar">
+            <a href="#" class="active text-white font-medium text-lg mx-4 border-b-2 border-transparent transition-all duration-300 hover:text-orangered hover:border-orangered">Portfolio</a>
+            <a href="#" class="text-white font-medium text-lg mx-4 border-b-2 border-transparent transition-all duration-300 hover:text-orangered hover:border-orangered">Services</a>
+            <a href="#" class="text-white font-medium text-lg mx-4 border-b-2 border-transparent transition-all duration-300 hover:text-orangered hover:border-orangered">Experience</a>
+            <a href="#" class="text-white font-medium text-lg mx-4 border-b-2 border-transparent transition-all duration-300 hover:text-orangered hover:border-orangered">Projects</a>
+            <a href="#" class="text-white font-medium text-lg mx-4 border-b-2 border-transparent transition-all duration-300 hover:text-orangered hover:border-orangered">Education</a>
+        </nav>
+        <a href="#" class="contact bg-white px-6 py-3 text-black border-2 border-transparent rounded-md font-semibold text-lg transition-all duration-300 hover:bg-orangered hover:text-white">Contact Me</a>
+    </header>
+    <section class="home flex items-center bg-gray-200 min-h-screen px-12 pt-20">
+        <div class="home-content max-w-2xl">
+            <h3 class="text-3xl">Hi</h3>
+            <h1 class="text-5xl font-bold">I'm <span class="text-orangered">Nauman <br></span>a Full Stack Developer</h1>
+            <p class="text-lg mt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid in optio sint voluptatem. Dolorem itaque
+                minus sed quam, odit molestias! Nulla!</p>
+            <div class="btn-box mt-10">
+                <button class="btn-1 px-8 py-4 bg-black text-white border-2 border-transparent rounded-md font-semibold text-lg transition-all duration-300 hover:bg-white hover:text-black">Hire Me</button>
+                <button class="btn-2 px-8 py-4 bg-orangered text-white border-2 border-black rounded-md font-semibold text-lg transition-all duration-300 hover:bg-white hover:text-orangered">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="me.jpeg" alt="" class="rounded-full w-96 h-96">
+        </div>
+    </section>
+    <section class="about flex justify-center items-center bg-black py-12 px-8">
+        <div class="about-img">
+            <img src="me.jpeg" alt="" class="rounded-full w-96 h-96 shadow-orangered">
+        </div>
+        <div class="about-content ml-12">
+            <h2 class="heading text-white text-3xl">About <span>Me</span></h2>
+            <h3 class="text-5xl text-white">Frontent <span>Developer</span></h3>
+            <p class="text-lg text-white mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias repudiandae quae est obcaecati voluptatum
+                totam molestias recusandae. Expedita, voluptatibus quam.</p>
+            <a href="#" class="btn-2 px-8 py-4 mt-8 bg-orangered text-white border-2 border-black rounded-md font-semibold text-lg transition-all duration-300 hover:bg-white hover:text-orangered">Experience</a>
+        </div>
+    </section>
+    <section class="contact-form bg-gray-200 py-12">
+        <h2 class="contact-me text-4xl text-center mb-8">Contact <span>Me</span></h2>
+        <form action="#" class="max-w-lg mx-auto">
+            <div class="input-box flex flex-wrap justify-center">
+                <input type="text" placeholder="Full Name" class="w-full px-4 py-3 mb-4 text-lg text-black bg-gray-200 rounded-lg focus:outline-none">
+                <input type="email" placeholder="Email" class="w-full px-4 py-3 mb-4 text-lg text-black bg-gray-200 rounded-lg focus:outline-none">
+            </div>
+            <div class="input-box flex flex-wrap justify-center">
+                <input type="number" placeholder="Your Phone number" class="w-full px-4 py-3 mb-4 text-lg text-black bg-gray-200 rounded-lg focus:outline-none">
+                <input type="text" placeholder="subject" class="w-full px-4 py-3 mb-4 text-lg text-black bg-gray-200 rounded-lg focus:outline-none">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message" class="w-full px-4 py-3 mb-4 text-lg text-black bg-gray-200 rounded-lg focus:outline-none resize-none"></textarea>
+            <input type="submit" value="Send message" class="btn-1 px-8 py-4 bg-black text-white border-2 border-transparent rounded-md font-semibold text-lg transition-all duration-300 hover:bg-white hover:text-black cursor-pointer">
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+
+a{
+    display: inline-block;
+    width:1500px;
+    position: relative;
+    top:0;
+    text-decoration: none;
+    list-style-type: none;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    
+    border-radius: 5px;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: top left;
+    transition: transform 1s ease-out;
+}
+a:hover::after{
+    transform: scaleX(1);
+    transform-origin: top left;
+    
+}
